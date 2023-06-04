@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    justify-content: center;
+    height: 90px;
+  }
+  
+  form {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.4);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(222, 16, 16);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container .input-group-addon {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: #fff;
+  }
+
+  .container .btn-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: #fff;
+  }
+
+  .container .btn-send .glyphicon-send {
+    margin-right: 15px;
+  }
+
+  
+  .send-icon {
+    margin-right: 5px;
+  }
+  
+  .alert-success {
+    display: none;
+  }
+  
